@@ -1,0 +1,27 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "good parts course exercises",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {},
+    "setupFiles": [
+        "<rootDir>/test-setup.js"
+    ]
+  },
+  "keywords": [
+    "course",
+    "good",
+    "parts",
+    "javascript"
+  ],
+  "author": "Tom Nicolosi",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
